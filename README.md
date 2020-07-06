@@ -1,26 +1,26 @@
-# deno-react-chat
-Chat using React and react-base-server and Websockets.
+# Deno react chat
+Real-time chat using React, deno-react-base-server and Websocket. All in one Typescript.
 ![launch_screenshot](./screenshot.png)
 
 ## Getting started
 ```Shell
-deno run --allow-net --allow-read https://denopkg.com/yoshixmk/deno-react-chat/mod.ts
+$ deno run --allow-net --allow-read https://denopkg.com/yoshixmk/deno-react-chat/mod.ts
 ```
-Let's show http://localhost:5000/
+will launch on http://localhost:5000/
 
-### By Default
+### Default settings
 - react based web server => 5000 port
 - Websocket => 8080 port
 - Localhost only work
 
-### Show help
+### Help
 ```Shell
-deno run https://denopkg.com/yoshixmk/deno-react-chat/mod.ts -h
+$ deno run https://denopkg.com/yoshixmk/deno-react-chat/mod.ts -h
 ```
 
 ## Starting at Local
-Another way, clone this & execute local src.  
+Another way, clone this src at local environment, and execute it.  
 Clone this and exec bellow.
 ```Shell
-deno run --allow-net --allow-read mod.ts
+$ deno run --allow-net --allow-read mod.ts
 ```
