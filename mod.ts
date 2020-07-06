@@ -18,7 +18,9 @@ const WEB_SOCKET_DEFAULT_PORT = 8080;
 const DEFAULT_HOSTNAME = "127.0.0.1";
 
 const parser = args
-  .describe("deno-react-chat is the tabletop game using Web server and Websocket")
+  .describe(
+    "deno-react-chat is the tabletop game using Web server and Websocket",
+  )
   .with(
     EarlyExitFlag("help", {
       describe: "Show help",

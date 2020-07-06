@@ -51,9 +51,6 @@ const App: React.FC<Props> = (
   const messagesLocal: Message[] = [];
 
   (React as any).useEffect(() => {
-    // if (ws) ws.close()
-    // ws = new WebSocket(endpoint)
-
     (ws as any).addEventListener("open", () => {
       console.log("ws connected!");
     });
